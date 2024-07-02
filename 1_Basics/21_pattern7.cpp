@@ -15,29 +15,20 @@
 using namespace std;
 int main()
 {
-
 int n;
 cout<<"n = ";
 cin>>n;
 
-int counter = 1;
-
 int i = 1;
-while (i<=n)
-{
+while(i<=n){
     int j = 1;
-    while (j<=n)
-    {
-        if(i>=j){
-            cout<<i<<" ";
-            counter++;
-        }
+    while(j<=i){
+        cout<<i;
         j++;
     }
-    i++;
     cout<<endl;
+    i++;
 }
-         
              
 return 0;
 }
