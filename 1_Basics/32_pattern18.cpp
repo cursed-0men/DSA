@@ -10,7 +10,7 @@ A B C D
 */
 // observation
 // 4 rows, for n = 4;
-// logic : Each ror starts form opposite corresponding char and nth row has n elements and regular counting.
+// logic : Each row starts form opposite corresponding char and nth row has n elements and regular counting.
 
 #include<iostream>
 using namespace std;
