@@ -8,16 +8,9 @@ int main()
 int n;
 cout<<"n = ";
 cin>>n;
+int ans = ((n)*(n+1));
+cout<<ans<<endl;
 
-int sum = 0;
-int i = 0;
 
-while(i<=n){
-    if(i%2==0){
-        sum += i;
-    }
-    i++;
-}
-cout<<sum<<endl;
 return 0;
 }
